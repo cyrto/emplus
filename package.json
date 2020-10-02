@@ -1,0 +1,55 @@
+{
+  "name": "element-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:play": "webpack-dev-server --config build/webpack.demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrto/element-plus.git"
+  },
+  "keywords": [
+    "element",
+    "ui",
+    "plus"
+  ],
+  "author": "cyrto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrto/element-plus/issues"
+  },
+  "homepage": "https://github.com/cyrto/element-plus#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^4.3.0",
+    "element-ui": "^2.13.2",
+    "eslint": "^7.10.0",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-router": "^3.4.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.1",
+    "mini-css-extract-plugin": "^0.11.2"
+  }
+}
